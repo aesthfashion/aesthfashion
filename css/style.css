@@ -1,0 +1,240 @@
+body {background-image:url(../images/leaf.jpg);
+}
+.logo{
+	background-image:url(../images/logo.jpg);
+}
+
+a {
+	text-decoration: none;
+	background:#afafaf;
+}
+
+.main-header {
+	margin-buttom: 10px;
+	
+}
+
+
+.button {
+	background: #e5bbb8;
+	color: black;
+	padding: 10px 25px;
+}
+
+
+
+.button:hover {
+	background:#cef6ff;
+	color:black;
+	
+}
+
+
+#main-menu {
+	margin:20px;
+	padding:10;
+	text-align:center;
+	list-style: none;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(4,1fr) ;
+	box-shadow:0 0 40px #9e9e9e;
+	color:#ffbb91;
+	
+	
+	
+
+}
+.lady {
+	color: black;
+	margin-bottom: 20px;
+	padding: 0px;
+	background-image: url(box lady.jpg)
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	border:solid black;
+}
+
+.creators profile {
+		padding: 10px;
+		background: #98b2e7;
+		text-align:center;
+		color: pink;
+		margin-bottom: 5px;
+		border:solid black;
+		
+}
+#profile {
+	margin:20px;
+	padding:20px;
+	text-align:center;
+	list-style: vertical;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(3, 1fr) ;
+	border:solid black;
+}
+ #person{
+	position:relative;
+	overflow:hidden;
+	transition:transform 2s;
+	margin:20px;
+	padding:10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr) ;
+	flex-wrap:row;
+	border:solid black;
+	outlinestyle:double;
+	outline-color:white;
+}
+#jershey{
+	position:relative;
+	overflow:hidden;
+	transition:transform 2s;
+	margin:20px;
+	padding:10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr) ;
+	border:solid black;
+	box-shadow:0 0 20px #9e9e9e;
+	
+
+	
+}
+#zyrene{
+	position:relative;
+	overflow:hidden;
+	transition:transform 2s;
+	margin:20px;
+	padding:10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr) ;
+	border:solid black;
+	box-shadow:0 0 20px #9e9e9e;
+	
+}
+#bianca{
+	position:relative;
+	overflow:hidden;
+	transition:transform 2s;
+	margin:20px;
+	padding:10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr) ;
+	border:solid black;
+	box-shadow:0 0 20px #9e9e9e;
+	
+}
+
+
+
+.logo {
+	color: black;
+	margin-bottom: 20px;
+	padding: 0px;
+	background-image: url(logo.jpg)
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	
+
+}
+
+.main-article {
+	color:cad2b3;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+	
+	
+.main-article-left {
+	background: ;
+	padding:40px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns:repeat(3fr 1fr) ;
+	box-shadow:20px skyblue;
+	border: black solid;
+}
+	
+.main-article-left p {
+	margin:40px 0 60px 0;
+}
+.main-article-right {
+	padding:40px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4fr 1fr);
+	box-shadow:0 0 20px skyblue;
+	border: black solid;
+}
+
+.main-article-right {
+	border: black solid;
+	text-align: center;
+}	
+		
+.gentlemen{
+	color: black;
+	margin-bottom: 20px;
+	padding: 0px;
+	background-image: url(logo.jpg)
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	border:solid black;
+	box-shadow:0 0 5px skyblue;
+
+}
+
+.main-article {
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns:repeat(3fr 1fr);
+	
+}	
+.main-article-left {
+	background: #ccc6c6;
+	padding:20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3fr 1fr);
+	box-shadow:0 0 10px skyblue;
+	border: black solid;
+}	
+.main-article-left p {
+	margin:40px 0 60px 0;
+	
+}
+.main-article-right {
+	border: black solid;
+	text-align: center;
+
+	
+}
+.footer {
+	color: black;
+	margin-bottom: 20px;
+	padding: 0px  20px;
+	text-align:center;
+	border:solid black;
+	box-shadow:0 0 5px skyblue;
+	text-align:center;
+	color:#cad2b3;
+	
+	
+	
+
+
+}
+
+
+	
